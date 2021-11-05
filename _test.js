@@ -18,7 +18,7 @@ Scenario('Submit testcafe page', ({ I }) => {
     I.see('Thank you');
     I.saveScreenshot('testcafe thank you page.png',true);
     
-}).tag('@important').tag('@test1');
+}).tag('@test1').tag('@testcafe');
 
 
 Scenario('example website test', ({ I }) => {
